@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Flutter
+nutriscan_app/.dart_tool/
+nutriscan_app/.flutter-plugins
+nutriscan_app/.flutter-plugins-dependencies
+nutriscan_app/.packages
+nutriscan_app/build/
+nutriscan_app/.metadata
+nutriscan_app/android/local.properties
+nutriscan_app/ios/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+*.pem
+*.key
+secrets.json
+
+# macOS
+.DS_Store
+# Jupyter notebooks (may contain saved credentials or outputs)
+*.ipynb
